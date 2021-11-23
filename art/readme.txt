@@ -15,4 +15,5 @@ New title screen
 Tweaked title screen introText
 Added the soundcloud version of The Golden Arch March (https://soundcloud.com/user-482502456/the-golden-arch-march-annie-and-garcello)
 Added The Golden Arch March insturmental as the title screen song (https://soundcloud.com/user-482502456/the-golden-arch-march-instrumental)
+Source code is now on github
 Subtle fixes 
