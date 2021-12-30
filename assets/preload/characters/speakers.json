@@ -1,14 +1,13 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
-				-9
+				0
 			],
-			"anim": "danceLeft",
+			"loop": false,
 			"fps": 24,
-			"name": "Beat",
+			"anim": "danceLeft",
 			"indices": [
 				30,
 				0,
@@ -26,17 +25,17 @@
 				12,
 				13,
 				14
-			]
+			],
+			"name": "Beat"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
-				-9
+				0
 			],
-			"anim": "danceRight",
+			"loop": false,
 			"fps": 24,
-			"name": "Beat",
+			"anim": "danceRight",
 			"indices": [
 				15,
 				16,
@@ -53,14 +52,15 @@
 				27,
 				28,
 				29
-			]
+			],
+			"name": "Beat"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/speakers",
 	"position": [
-		10,
-		300
+		0,
+		310
 	],
 	"healthicon": "face",
 	"flip_x": false,

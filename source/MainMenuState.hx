@@ -31,7 +31,7 @@ class MainMenuState extends MusicBeatState
 	private var camGame:FlxCamera;
 	private var camAchievement:FlxCamera;
 	
-	var optionShit:Array<String> = [/*'story_mode',*/ 'freeplay', #if ACHIEVEMENTS_ALLOWED 'awards', #end 'credits', /*#if !switch 'donate', #end*/ 'options'];
+	var optionShit:Array<String> = ['story_mode', /*'freeplay',*/ #if ACHIEVEMENTS_ALLOWED 'awards', #end 'credits', #if !switch 'donate', #end 'options'];
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
@@ -208,8 +208,9 @@ class MainMenuState extends MusicBeatState
 
 								switch (daChoice)
 								{
-									case 'story_mode':
-										MusicBeatState.switchState(new StoryMenuState());
+									case 'story_mode': // this tutorial kinda fire https://gamebanana.com/tuts/14614
+										PlayState.SONG = Song.loadFromJson('the-golden-arch-march-hard', 'the-golden-arch-march');
+										LoadingState.loadAndSwitchState(new PlayState());
 									case 'freeplay':
 										MusicBeatState.switchState(new FreeplayState());
 									case 'awards':
@@ -224,7 +225,6 @@ class MainMenuState extends MusicBeatState
 					});
 				}
 			}
-			/* Purposely disabled this so no crashes can happen when trying to do shit in there
 			#if desktop
 			else if (FlxG.keys.justPressed.SEVEN)
 			{
@@ -232,7 +232,6 @@ class MainMenuState extends MusicBeatState
 				MusicBeatState.switchState(new MasterEditorMenu());
 			}
 			#end
-			*/
 		}
 
 		super.update(elapsed);

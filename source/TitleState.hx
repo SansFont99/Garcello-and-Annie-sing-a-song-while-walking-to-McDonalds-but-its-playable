@@ -42,7 +42,7 @@ class TitleState extends MusicBeatState
 	var credGroup:FlxGroup;
 	var credTextShit:Alphabet;
 	var textGroup:FlxGroup;
-	var daSanFan:FlxSprite;
+	var coolswag:FlxSprite;
 
 	var curWacky:Array<String> = [];
 
@@ -123,7 +123,6 @@ class TitleState extends MusicBeatState
 	var annieDance:FlxSprite;
 	var garcelloDance:FlxSprite;
 	var mcdonalds:FlxSprite;
-	var danceLeft:Bool = false;
 	var titleText:FlxSprite;
 	var swagShader:ColorSwap = null;
 
@@ -193,13 +192,13 @@ class TitleState extends MusicBeatState
 		credTextShit.screenCenter();
 		credTextShit.visible = false;
 
-		daSanFan = new FlxSprite(0, FlxG.height * 0.4).loadGraphic(Paths.image('credits/sansfont99'));
-		add(daSanFan);
-		daSanFan.visible = false;
-		daSanFan.setGraphicSize(Std.int(daSanFan.width * 2));
-		daSanFan.updateHitbox();
-		daSanFan.screenCenter(X);
-		daSanFan.antialiasing = ClientPrefs.globalAntialiasing;
+		coolswag = new FlxSprite(0, FlxG.height * 0.4).loadGraphic(Paths.image('coolswag'));
+		add(coolswag);
+		coolswag.visible = false;
+		coolswag.setGraphicSize(Std.int(coolswag.width * 1));
+		coolswag.updateHitbox();
+		coolswag.screenCenter(X);
+		coolswag.antialiasing = ClientPrefs.globalAntialiasing;
 
 		FlxTween.tween(credTextShit, {y: credTextShit.y + 20}, 2.9, {ease: FlxEase.quadInOut, type: PINGPONG});
 
@@ -395,13 +394,13 @@ class TitleState extends MusicBeatState
 				case 4:
 					deleteCoolText();
 				case 5:
-					createCoolText(['Who made this mod?'], -60);
+					createCoolText(["Garelo and An sing a song to yellow m"], -60);
 				case 7:
-					addMoreText('Da San Fan', -60);
-					daSanFan.visible = true;
+					addMoreText('coolswag', -60);
+					coolswag.visible = true;
 				case 8:
 					deleteCoolText();
-					daSanFan.visible = false;
+					coolswag.visible = false;
 				case 9:
 					createCoolText([curWacky[0]]);
 				case 11:
@@ -426,7 +425,7 @@ class TitleState extends MusicBeatState
 	{
 		if (!skippedIntro)
 		{
-			remove(daSanFan);
+			remove(coolswag);
 			FlxG.camera.flash(FlxColor.WHITE, 4);
 			remove(credGroup);
 			skippedIntro = true;

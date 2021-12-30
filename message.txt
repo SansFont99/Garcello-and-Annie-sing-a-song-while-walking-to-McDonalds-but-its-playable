@@ -1,0 +1,19 @@
+Hey Player, thanks for downloading!
+
+If you want to showcase this mod, PLEASE put the link of the mod in your video description or comment section.
+
+Here's the links to the mod:
+
+Gamebanana: https://gamebanana.com/mods/331703
+Gamejolt: https://gamejolt.com/games/garcelloandanniesingasong/658268
+
+Source code can be found at https://github.com/SansFont99/Garcello-and-Annie-sing-a-song-while-walking-to-McDonalds-but-its-playable
+
+Thanks for reading and enjoy!
+
+Changelog for v1.3.0:
+
+- Removed Freeplay and added Story Mode back, when clicked it leads you to the song from the menu omg!111
+- New atsuover icon in credits
+- You now take opponent damage in game
+- Fixes that are small

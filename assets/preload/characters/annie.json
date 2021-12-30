@@ -1,155 +1,12 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "Annie Idle"
-		},
-		{
-			"offsets": [
-				24,
-				61
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				23,
+				60
+			],
 			"anim": "singUP",
-			"indices": [],
-			"name": "Annie Up"
-		},
-		{
-			"offsets": [
-				60,
-				0
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "Annie Right"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				49,
-				1
-			],
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Annie Left",
-			"indices": [
-				1,
-				2,
-				3,
-				4,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15,
-				16,
-				17,
-				18,
-				19,
-				20
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
-				47,
-				-108
-			],
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "Annie Down",
-			"indices": [
-				1,
-				2,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15,
-				16,
-				17,
-				18,
-				19,
-				20,
-				21,
-				22,
-				23,
-				24,
-				25,
-				26,
-				27,
-				28,
-				29,
-				30
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
-				47,
-				-108
-			],
-			"anim": "singDOWNmiss",
-			"fps": 24,
-			"name": "Annie Down",
-			"indices": [
-				1,
-				2,
-				3,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15,
-				16,
-				17,
-				18,
-				19,
-				20,
-				21,
-				22,
-				23,
-				24,
-				25,
-				26,
-				27,
-				28,
-				29,
-				30
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
-				24,
-				61
-			],
-			"anim": "singUPmiss",
 			"fps": 24,
 			"name": "Annie Up",
 			"indices": []
@@ -160,20 +17,19 @@
 				60,
 				0
 			],
-			"anim": "singLEFTmiss",
+			"anim": "singLEFT",
 			"fps": 24,
 			"name": "Annie Right",
 			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
-				49,
+				47,
 				1
 			],
-			"anim": "singRIGHTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Annie Left",
+			"anim": "singRIGHT",
 			"indices": [
 				1,
 				2,
@@ -194,7 +50,151 @@
 				18,
 				19,
 				20
-			]
+			],
+			"name": "Annie Left"
+		},
+		{
+			"offsets": [
+				48,
+				-108
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [
+				1,
+				2,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30
+			],
+			"name": "Annie Down"
+		},
+		{
+			"offsets": [
+				48,
+				-108
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [
+				1,
+				2,
+				3,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30
+			],
+			"name": "Annie Down"
+		},
+		{
+			"offsets": [
+				23,
+				60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Annie Up"
+		},
+		{
+			"offsets": [
+				60,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Annie Right"
+		},
+		{
+			"offsets": [
+				47,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			],
+			"name": "Annie Left"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "Annie Idle"
 		}
 	],
 	"no_antialiasing": false,
@@ -214,6 +214,6 @@
 		50,
 		-200
 	],
-	"sing_duration": 3.2,
+	"sing_duration": 6.1,
 	"scale": 1.2
 }
